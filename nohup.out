@@ -1,0 +1,298 @@
+from: can't read /var/mail/flask
+from: can't read /var/mail/flask.ext.pymongo
+/var/www/pytomongo.py: 4: /var/www/pytomongo.py: Syntax error: "(" unexpected
+/var/www/pytomongo.py:2: ExtDeprecationWarning: Importing flask.ext.pymongo is deprecated, use flask_pymongo instead.
+  from flask.ext.pymongo import PyMongo
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+/var/www/pytomongo.py:2: ExtDeprecationWarning: Importing flask.ext.pymongo is deprecated, use flask_pymongo instead.
+  from flask.ext.pymongo import PyMongo
+ * Debugger is active!
+ * Debugger PIN: 180-998-731
+128.82.38.108 - - [22/May/2017 22:00:48] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:01:24] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:01:26] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:01:27] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:01:28] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:01:28] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:01:29] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:01:46] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:01:58] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:02:00] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:04:37] "GET /get HTTP/1.1" 200 -
+128.82.20.104 - - [22/May/2017 22:04:45] "GET /get HTTP/1.1" 200 -
+128.82.20.104 - - [22/May/2017 22:05:01] "GET /get/dinesh HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:05:22] "GET /get HTTP/1.1" 200 -
+128.82.38.108 - - [22/May/2017 22:32:04] "GET /get HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:46:16] "GET /get/dinesh HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:46:54] "GET / HTTP/1.1" 404 -
+68.228.136.100 - - [22/May/2017 22:46:54] "GET /favicon.ico HTTP/1.1" 404 -
+68.228.136.100 - - [22/May/2017 22:46:59] "GET /api HTTP/1.1" 404 -
+68.228.136.100 - - [22/May/2017 22:47:20] "GET /get HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:47:20] "GET /api HTTP/1.1" 404 -
+68.228.136.100 - - [22/May/2017 22:47:25] "GET /api/ HTTP/1.1" 404 -
+68.228.136.100 - - [22/May/2017 22:47:29] "GET /get/ HTTP/1.1" 404 -
+68.228.136.100 - - [22/May/2017 22:47:32] "GET /get HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:47:38] "GET /get/ HTTP/1.1" 404 -
+68.228.136.100 - - [22/May/2017 22:47:40] "GET /get HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:47:47] "GET /get/dinesh HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:48:00] "GET /get/ HTTP/1.1" 404 -
+68.228.136.100 - - [22/May/2017 22:48:03] "GET /get HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:48:22] "GET /get/city HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:48:28] "GET /get/siri HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:48:31] "GET /get HTTP/1.1" 200 -
+68.228.136.100 - - [22/May/2017 22:48:59] "GET / HTTP/1.1" 404 -
+68.228.136.100 - - [23/May/2017 04:45:28] "GET /get/dinesh HTTP/1.1" 200 -
+68.228.136.100 - - [23/May/2017 04:45:37] "GET /get/dinesh HTTP/1.1" 200 -
+93.174.95.106 - - [23/May/2017 15:22:18] "GET / HTTP/1.1" 404 -
+128.82.16.125 - - [23/May/2017 16:05:56] "GET /get HTTP/1.1" 200 -
+128.82.16.125 - - [23/May/2017 16:05:58] "GET /get HTTP/1.1" 200 -
+106.75.76.16 - - [23/May/2017 16:38:42] "GET / HTTP/1.0" 404 -
+68.228.136.100 - - [23/May/2017 22:48:06] "GET /get HTTP/1.1" 200 -
+68.228.136.100 - - [23/May/2017 23:37:21] "GET /get HTTP/1.1" 200 -
+68.228.136.100 - - [23/May/2017 23:37:23] "GET /favicon.ico HTTP/1.1" 404 -
+68.228.136.100 - - [24/May/2017 01:54:35] "GET / HTTP/1.1" 404 -
+68.228.136.100 - - [24/May/2017 01:54:46] "GET / HTTP/1.1" 404 -
+68.228.136.100 - - [24/May/2017 01:54:48] "GET /favicon.ico HTTP/1.1" 404 -
+68.228.136.100 - - [24/May/2017 01:54:56] "GET / HTTP/1.1" 404 -
+68.228.136.100 - - [24/May/2017 01:55:11] "GET / HTTP/1.1" 404 -
+68.228.136.100 - - [24/May/2017 01:55:15] "GET / HTTP/1.1" 404 -
+68.228.136.100 - - [24/May/2017 01:55:23] "GET /get HTTP/1.1" 200 -
+68.228.136.100 - - [24/May/2017 01:58:24] "POST /a HTTP/1.1" 404 -
+68.228.136.100 - - [24/May/2017 01:59:41] "POST /post HTTP/1.1" 400 -
+68.228.136.100 - - [24/May/2017 02:00:19] "POST /post HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/pytomongo.py", line 48, in add_users
+    first_name = request.json['first_name']
+TypeError: list indices must be integers, not str
+68.228.136.100 - - [24/May/2017 02:00:55] "POST /post HTTP/1.1" 400 -
+68.10.171.244 - - [24/May/2017 02:08:31] "POST /post HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/pytomongo.py", line 48, in add_users
+    first_name = request.json['first_name']
+KeyError: 'first_name'
+68.10.171.244 - - [24/May/2017 02:09:07] "POST /a HTTP/1.1" 404 -
+ * Detected change in '/var/www/pytomongo.py', reloading
+ * Restarting with stat
+/var/www/pytomongo.py:2: ExtDeprecationWarning: Importing flask.ext.pymongo is deprecated, use flask_pymongo instead.
+  from flask.ext.pymongo import PyMongo
+ * Debugger is active!
+ * Debugger PIN: 180-998-731
+128.82.22.127 - - [24/May/2017 17:19:25] "GET /data HTTP/1.1" 200 -
+ * Detected change in '/var/www/pytomongo.py', reloading
+ * Restarting with stat
+/var/www/pytomongo.py:2: ExtDeprecationWarning: Importing flask.ext.pymongo is deprecated, use flask_pymongo instead.
+  from flask.ext.pymongo import PyMongo
+ * Debugger is active!
+ * Debugger PIN: 180-998-731
+128.82.22.127 - - [24/May/2017 17:23:10] "GET /data/count HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1725, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+128.82.22.127 - - [24/May/2017 17:23:21] "GET /data/count HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1997, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1985, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1540, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/flask/app.py", line 1725, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+ * Detected change in '/var/www/pytomongo.py', reloading
+ * Restarting with stat
+/var/www/pytomongo.py:2: ExtDeprecationWarning: Importing flask.ext.pymongo is deprecated, use flask_pymongo instead.
+  from flask.ext.pymongo import PyMongo
+ * Debugger is active!
+ * Debugger PIN: 180-998-731
+128.82.22.127 - - [24/May/2017 17:23:55] "GET /data/count HTTP/1.1" 200 -
+128.82.22.127 - - [24/May/2017 18:12:55] "GET /get HTTP/1.1" 404 -
+77.72.84.91 - - [24/May/2017 19:38:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%\xe0\x00\x00\x00\x00\x00Cookie:')
+77.72.84.91 - - [24/May/2017 19:38:22] "  *%‡     Cookie: mstshash=Test" 400 -
+77.72.84.91 - - [24/May/2017 19:38:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%\xe0\x00\x00\x00\x00\x00Cookie:')
+77.72.84.91 - - [24/May/2017 19:38:59] "  *%‡     Cookie: mstshash=Test" 400 -
+128.82.22.127 - - [24/May/2017 23:35:06] "GET /data/count HTTP/1.1" 200 -
+128.82.22.127 - - [24/May/2017 23:45:04] "GET /data HTTP/1.1" 200 -
+128.82.22.127 - - [24/May/2017 23:48:42] "PUT /data HTTP/1.1" 200 -
+128.82.22.127 - - [24/May/2017 23:53:40] "GET /data HTTP/1.1" 200 -
+128.82.22.127 - - [24/May/2017 23:56:25] "POST /data HTTP/1.1" 200 -
+128.82.22.127 - - [24/May/2017 23:58:29] "DELETE /data?Username=dinesh HTTP/1.1" 200 -
+128.82.22.127 - - [24/May/2017 23:58:37] "DELETE /data?Username=Dinesh HTTP/1.1" 200 -
+128.82.22.127 - - [24/May/2017 23:59:52] "GET /data/count HTTP/1.1" 200 -
+128.82.22.127 - - [25/May/2017 00:46:10] "PUT /data HTTP/1.1" 200 -
+68.228.136.100 - - [25/May/2017 01:30:15] "GET /data HTTP/1.1" 200 -
+68.228.136.100 - - [25/May/2017 01:30:41] "GET /data/count HTTP/1.1" 200 -
+68.228.136.100 - - [25/May/2017 02:45:32] "GET /data HTTP/1.1" 200 -
+68.228.136.100 - - [25/May/2017 02:45:33] "GET /favicon.ico HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 232, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 263, in handle_one_request
+    self.raw_requestline = self.rfile.readline()
+IOError: [Errno 104] Connection reset by peer
+212.92.111.165 - - [25/May/2017 10:22:07] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+212.92.111.165 - - [25/May/2017 10:22:07] "  +&‡     Cookie: mstshash=hello" 400 -
+212.92.111.165 - - [25/May/2017 10:56:23] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+212.92.111.165 - - [25/May/2017 10:56:23] "  +&‡     Cookie: mstshash=hello" 400 -
+204.154.44.34 - - [25/May/2017 15:32:01] "GET /data HTTP/1.1" 200 -
+195.154.214.162 - - [26/May/2017 06:47:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x90\x01\x00\x00\x8c\x03\x03$\xf2\xa6\xa0\xc0\xe4\xa1\xdb\xf8#\x94D\x19\xa9\xbe\x9c\x86\x89\xe2\xfd\xca\x11\x88\xc2')
+195.154.214.162 - - [26/May/2017 06:47:08] " ê  å$Ú¶†¿‰°€¯#îD©æúÜâ‚˝ à¬¨PÃ_L∑?  .¿+¿/ û ú¿" 400 -
+91.197.234.22 - - [26/May/2017 13:59:44] code 400, message Bad HTTP/0.9 request type ("\x03\x00\x00,'\xe0\x00\x00\x00\x00\x00Cookie:")
+91.197.234.22 - - [26/May/2017 13:59:44] "  ,'‡     Cookie: mstshash=eltons" 400 -
+94.102.49.190 - - [26/May/2017 15:23:36] "GET / HTTP/1.1" 404 -
+212.92.122.56 - - [26/May/2017 21:29:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+212.92.122.56 - - [26/May/2017 21:29:43] "  +&‡     Cookie: mstshash=hello" 400 -
+212.92.122.56 - - [26/May/2017 22:25:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+212.92.122.56 - - [26/May/2017 22:25:04] "  +&‡     Cookie: mstshash=hello" 400 -
+71.6.158.166 - - [28/May/2017 15:59:42] "GET / HTTP/1.1" 404 -
+54.255.244.111 - - [28/May/2017 18:08:55] "GET / HTTP/1.1" 404 -
+128.82.37.110 - - [28/May/2017 22:28:00] "GET /data HTTP/1.1" 200 -
+128.82.37.110 - - [29/May/2017 00:10:06] "GET /data HTTP/1.1" 200 -
+ * Detected change in '/var/www/pytomongo.py', reloading
+----------------------------------------
+Exception happened during processing of request from ('168.1.128.35', 10000)
+----------------------------------------
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 180-998-731
+127.0.0.1 - - [29/May/2017 00:49:49] "POST /dailyupdate HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 168, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+128.82.37.110 - - [29/May/2017 00:49:50] "GET /data HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 181, in write
+    self.wfile.write(data)
+IOError: [Errno 32] Broken pipe
+128.82.37.110 - - [29/May/2017 00:49:50] "GET /data HTTP/1.1" 200 -
+35.160.147.244 - - [29/May/2017 00:50:25] "GET /data HTTP/1.1" 200 -
+128.82.37.110 - - [29/May/2017 00:50:58] "GET /data HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2017 00:59:51] "POST /dailyupdate HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2017 01:10:59] "POST /dailyupdate HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 168, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+127.0.0.1 - - [29/May/2017 01:18:56] "POST /dailyupdate HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 168, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+127.0.0.1 - - [29/May/2017 01:26:54] "POST /dailyupdate HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 168, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+127.0.0.1 - - [29/May/2017 01:35:05] "POST /dailyupdate HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 209, in run_wsgi
+    execute(self.server.app)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 200, in execute
+    write(data)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/werkzeug/serving.py", line 168, in write
+    self.send_header(key, value)
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 412, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+128.82.37.110 - - [29/May/2017 01:35:06] "GET /data HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2017 01:48:05] "POST /dailyupdate HTTP/1.1" 200 -
+128.82.37.110 - - [29/May/2017 02:02:34] "POST /data HTTP/1.1" 200 -
+128.82.37.110 - - [29/May/2017 02:02:39] "POST /data HTTP/1.1" 200 -
+128.82.37.110 - - [29/May/2017 02:02:46] "GET /data HTTP/1.1" 200 -

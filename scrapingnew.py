@@ -20,22 +20,24 @@ name_last = soup.find_all(class_="fontSize_7 block")
 name = name[0].get_text().strip()+" "+name_last[0].get_text().strip()
 new=0
 ans=100
-total=6100
+#total=6100
 globallist =[]   
 titlelist=['Device','Title','ReviewText','SubmissionTime','UserNickname']
 globallist.append(titlelist)
 totaloutput=[]
 #print(globallist)
 #for getting total number of reviews
-#url = "https://api.bazaarvoice.com/data/batch.json?passkey=e8bg3vobqj42squnih3a60fui&apiversion=5.5&displaycode=6543-en_us&resource.q0=reviews&filter.q0=isratingsonly%3Aeq%3Afalse&filter.q0=productid%3Aeq%3Adev5800066&filter.q0=contentlocale%3Aeq%3Aen_US&sort.q0=rating%3Adesc&stats.q0=reviews&filteredstats.q0=reviews&include.q0=authors%2Cproducts%2Ccomments&filter_reviews.q0=contentlocale%3Aeq%3Aen_US&filter_reviewcomments.q0=contentlocale%3Aeq%3Aen_US&filter_comments.q0=contentlocale%3Aeq%3Aen_US&limit.q0="+str(100)+"&offset.q0="+str(1*offset)+"&limit_comments.q0=3&callback=bv_1111_57232"
-#html = urlopen(url).read().decode()
-#json_result = json.loads((str(html)[14:-1]))
-#total = json_result['BatchedResults']['q0']['TotalResults']
-#print("total: ",total)
+url = "https://api.bazaarvoice.com/data/batch.json?passkey=e8bg3vobqj42squnih3a60fui&apiversion=5.5&displaycode=6543-en_us&resource.q0=reviews&filter.q0=isratingsonly%3Aeq%3Afalse&filter.q0=productid%3Aeq%3Adev5800066&filter.q0=contentlocale%3Aeq%3Aen_US&sort.q0=rating%3Adesc&stats.q0=reviews&filteredstats.q0=reviews&include.q0=authors%2Cproducts%2Ccomments&filter_reviews.q0=contentlocale%3Aeq%3Aen_US&filter_reviewcomments.q0=contentlocale%3Aeq%3Aen_US&filter_comments.q0=contentlocale%3Aeq%3Aen_US&limit.q0="+str(100)+"&offset.q0="+str(1*offset)+"&limit_comments.q0=3&callback=bv_1111_57232"
+html = urlopen(url).read().decode()
+json_result = json.loads((str(html)[14:-1]))
+total = json_result['BatchedResults']['q0']['TotalResults']
+print("total: ",total)
 #limchange=1;
 #for getting review in multiples of 100
 output = [];
-for limchange in range(0,round(total/100)):
+count5=0
+value=total-(total%100)
+for limchange in range(0,round(value/100)):
 #    print (limchange)  
     url = "https://api.bazaarvoice.com/data/batch.json?passkey=e8bg3vobqj42squnih3a60fui&apiversion=5.5&displaycode=6543-en_us&resource.q0=reviews&filter.q0=isratingsonly%3Aeq%3Afalse&filter.q0=productid%3Aeq%3Adev5800066&filter.q0=contentlocale%3Aeq%3Aen_US&sort.q0=rating%3Adesc&stats.q0=reviews&filteredstats.q0=reviews&include.q0=authors%2Cproducts%2Ccomments&filter_reviews.q0=contentlocale%3Aeq%3Aen_US&filter_reviewcomments.q0=contentlocale%3Aeq%3Aen_US&filter_comments.q0=contentlocale%3Aeq%3Aen_US&limit.q0="+str(ans)+"&offset.q0="+str(limchange*offset)+"&limit_comments.q0=3&callback=bv_1111_57232"
     html = urlopen(url).read().decode()
@@ -50,6 +52,7 @@ for limchange in range(0,round(total/100)):
                   "Title":json_result['BatchedResults']['q0']['Results'][review]['Title'],
                   "Submission Time":json_result['BatchedResults']['q0']['Results'][review]['SubmissionTime'][0:10]
                  })
+        count5=count5+1
     #    totaloutput = totaloutput.append(output)
     #    print("Review: ",new+review+1,json_result['BatchedResults']['q0']['Results'][review]['ReviewText'])
     #    print ("Username: ",json_result['BatchedResults']['q0']['Results'][review]['UserNickname'])
@@ -58,27 +61,28 @@ for limchange in range(0,round(total/100)):
     #    globallist.append(templist)
     new=review+new+1
 #    print(json.dumps({'result':output}))
-#ans=total%100    
-###for getting last reviews
-#url = "https://api.bazaarvoice.com/data/batch.json?passkey=e8bg3vobqj42squnih3a60fui&apiversion=5.5&displaycode=6543-en_us&resource.q0=reviews&filter.q0=isratingsonly%3Aeq%3Afalse&filter.q0=productid%3Aeq%3Adev5800066&filter.q0=contentlocale%3Aeq%3Aen_US&sort.q0=rating%3Adesc&stats.q0=reviews&filteredstats.q0=reviews&include.q0=authors%2Cproducts%2Ccomments&filter_reviews.q0=contentlocale%3Aeq%3Aen_US&filter_reviewcomments.q0=contentlocale%3Aeq%3Aen_US&filter_comments.q0=contentlocale%3Aeq%3Aen_US&limit.q0="+str(ans)+"&offset.q0="+str(ans)+"&limit_comments.q0=3&callback=bv_1111_57232"
-#html = urlopen(url).read().decode()
-#json_result = json.loads((str(html)[14:-1]))
+ans=total%100    
+##for getting last reviews
+url = "https://api.bazaarvoice.com/data/batch.json?passkey=e8bg3vobqj42squnih3a60fui&apiversion=5.5&displaycode=6543-en_us&resource.q0=reviews&filter.q0=isratingsonly%3Aeq%3Afalse&filter.q0=productid%3Aeq%3Adev5800066&filter.q0=contentlocale%3Aeq%3Aen_US&sort.q0=rating%3Adesc&stats.q0=reviews&filteredstats.q0=reviews&include.q0=authors%2Cproducts%2Ccomments&filter_reviews.q0=contentlocale%3Aeq%3Aen_US&filter_reviewcomments.q0=contentlocale%3Aeq%3Aen_US&filter_comments.q0=contentlocale%3Aeq%3Aen_US&limit.q0="+str(ans)+"&offset.q0="+str(ans)+"&limit_comments.q0=3&callback=bv_1111_57232"
+html = urlopen(url).read().decode()
+json_result = json.loads((str(html)[14:-1]))
+
 #
-##
-#for review in range(0,ans):
-#    allreviews= json_result['BatchedResults']['q0']['Results'][review]['ReviewText'].replace("\n", " ")
-#    allreviews="".join( allreviews.splitlines())
-##    templist1=[name,json_result['BatchedResults']['q0']['Results'][review]['Title'],allreviews,json_result['BatchedResults']['q0']['Results'][review]['SubmissionTime'][0:10],json_result['BatchedResults']['q0']['Results'][review]['UserNickname']]
-#    output.append({"Review":allreviews,
-#                  "Username":json_result['BatchedResults']['q0']['Results'][review]['UserNickname'],
-#                  "Title":json_result['BatchedResults']['q0']['Results'][review]['Title'],
-#                  "Submission Time":json_result['BatchedResults']['q0']['Results'][review]['SubmissionTime']})
-##    print("Review: ",new+review+1,json_result['BatchedResults']['q0']['Results'][review]['ReviewText'])
-##    print ("Username: ",json_result['BatchedResults']['q0']['Results'][review]['UserNickname'])
-##    print ("Title: ",json_result['BatchedResults']['q0']['Results'][review]['Title'])
-##    print ("Submission Time: ",json_result['BatchedResults']['q0']['Results'][review]['SubmissionTime'][0:10])
-##    globallist.append(templist1)
-#new=review+new+1
+for review in range(0,ans):
+    allreviews= json_result['BatchedResults']['q0']['Results'][review]['ReviewText'].replace("\n", " ")
+    allreviews="".join( allreviews.splitlines())
+#    templist1=[name,json_result['BatchedResults']['q0']['Results'][review]['Title'],allreviews,json_result['BatchedResults']['q0']['Results'][review]['SubmissionTime'][0:10],json_result['BatchedResults']['q0']['Results'][review]['UserNickname']]
+    output.append({"Review":allreviews,
+                  "Username":json_result['BatchedResults']['q0']['Results'][review]['UserNickname'],
+                  "Title":json_result['BatchedResults']['q0']['Results'][review]['Title'],
+                  "Submission Time":json_result['BatchedResults']['q0']['Results'][review]['SubmissionTime']})
+    count5=count5+1
+#    print("Review: ",new+review+1,json_result['BatchedResults']['q0']['Results'][review]['ReviewText'])
+#    print ("Username: ",json_result['BatchedResults']['q0']['Results'][review]['UserNickname'])
+#    print ("Title: ",json_result['BatchedResults']['q0']['Results'][review]['Title'])
+#    print ("Submission Time: ",json_result['BatchedResults']['q0']['Results'][review]['SubmissionTime'][0:10])
+#    globallist.append(templist1)
+new=review+new+1
 
 #print(json.dumps({'result':output}))
 
@@ -86,6 +90,6 @@ for limchange in range(0,round(total/100)):
 #with open('reviews.csv', 'w',encoding='utf-8',newline='') as csv_file:
 #    writer = csv.writer(csv_file,delimiter =':',lineterminator='\n')
 #    writer.writerows(globallist)
-
-with open('data.json', 'w') as outfile:
+print (count5)
+with open('./static/data.json', 'w') as outfile:
     json.dump(output,outfile)
